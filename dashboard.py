@@ -38,7 +38,7 @@ Menggabungkan kedua tabel
 """
 
 
-bike_sharing = pd.read_csv("../dashboard/bike_sharing_data.csv")
+bike_sharing = pd.read_csv("bike_sharing_data.csv")
 st.dataframe(bike_sharing)
 
 
